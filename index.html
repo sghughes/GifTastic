@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>GifTastic</title>
+</head>
+<body>
+    <containter>
+    <div class='jumbotron'>
+        <h1 class='display-4 text-center'>GifTastic Sports</h1>
+    </div>
+    <div id="buttonDiv" class='text-center'>
+
+    </div>
+    <br>
+    <div id="searchDiv" class="text-center">
+        <form id="gif-form">
+            <label for="gif-input">Add a New Gif Button:</label>
+            <input type="text" id="gif-input">
+        
+            <!-- Button triggers new gif to be added -->
+            <input id="add-gif" type="submit" value="Add">
+        </form>
+
+    </div>
+    <br>
+    <div id="gifDiv" class='text-center'>
+
+    </div>
+</containter>
+    <script type="text/javascript" src="assets/javascript/gif.js"></script>
+
+</body>
+<div class='fixed-bottom'> 
+    <footer class= 'text-right'>Gif Source: https://developers.giphy.com/ </footer>
+</div>
+</html>
